@@ -1,0 +1,1055 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8574538522627676960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5737628048014774078}
+  - component: {fileID: 4824928010025684687}
+  m_Layer: 0
+  m_Name: SniperSection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5737628048014774078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574538522627676960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3602262268531693936}
+  - {fileID: 4439115535033608059}
+  - {fileID: 1359235631067791734}
+  - {fileID: 4250367310208232009}
+  - {fileID: 7463668379483234035}
+  - {fileID: 319530093591276659}
+  - {fileID: 5994008157709818855}
+  - {fileID: 282667236510682962}
+  - {fileID: 3379621232351879274}
+  - {fileID: 2227727638517665442}
+  - {fileID: 1867106207721471595}
+  - {fileID: 2228835905048173842}
+  - {fileID: 8894605247300413812}
+  - {fileID: 9032596141398887335}
+  - {fileID: 8423081516544434053}
+  - {fileID: 8251199270432900191}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4824928010025684687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574538522627676960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3239223a464fba94982f1b578be4b05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCard: 0
+--- !u!1001 &1449029197849338574
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &5994008157709818855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 1449029197849338574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2351235322207348698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &7463668379483234035 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 2351235322207348698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3733992935866689196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2800002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &8423081516544434053 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 3733992935866689196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3870602866275220854
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2800002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &8251199270432900191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 3870602866275220854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4210646422842372750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &9032596141398887335 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 4210646422842372750}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4349068290602455133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2800002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &8894605247300413812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 4349068290602455133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4853244483789313370
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &319530093591276659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 4853244483789313370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4961065266649806459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &282667236510682962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 4961065266649806459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6190755498715084895
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &1359235631067791734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 6190755498715084895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6474884045886235707
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2800002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &2228835905048173842 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 6474884045886235707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6476027496520660875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &2227727638517665442 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 6476027496520660875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6835419688617822018
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &1867106207721471595 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 6835419688617822018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7625668750466832707
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &3379621232351879274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 7625668750466832707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8559316196228538457
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &3602262268531693936 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 8559316196228538457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8840542733525605970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &4439115535033608059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 8840542733525605970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9063868381362918240
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5737628048014774078}
+    m_Modifications:
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217293692176351209, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+      propertyPath: m_Name
+      value: Sniper Tank 1 Variant (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+--- !u!4 &4250367310208232009 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131010415520446761, guid: 9035a7a9360484646974ecf2ee43cfa3, type: 3}
+  m_PrefabInstance: {fileID: 9063868381362918240}
+  m_PrefabAsset: {fileID: 0}
